@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Interactive rating component</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  
+  <script src=""></script>
+
+<body>
+  <div id="rate-content-card" class="card">
+    <img id="rating-img" src="./images/icon-star.svg">
+    <h2 id="rating-title">How did we do?</h2>
+    <p id="rating-description">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!<p>
+      <div id="rate-button-container">
+        <button id="button-1" onclick="chosenRating(1)" onmouseenter="buttonRateHover(this)" onmouseleave="buttonRateIdle(this)" class = "rate-button" type="button">1</button>
+        <button id="button-2" onclick="chosenRating(2)" onmouseenter="buttonRateHover(this)" onmouseleave="buttonRateIdle(this)" class = "rate-button" type="button">2</button>
+        <button id="button-3" onclick="chosenRating(3)" onmouseenter="buttonRateHover(this)" onmouseleave="buttonRateIdle(this)" class = "rate-button" type="button">3</button>
+        <button id="button-4" onclick="chosenRating(4)" onmouseenter="buttonRateHover(this)" onmouseleave="buttonRateIdle(this)" class = "rate-button" type="button">4</button>
+        <button id="button-5" onclick="chosenRating(5)" onmouseenter="buttonRateHover(this)" onmouseleave="buttonRateIdle(this)" class = "rate-button" type="button">5</button>
+      </div>
+      <button id="button-submit">SUBMIT</button>
+    </div>
+    
+    <div id="thank-you-card" class="card">
+      <img id="thank-you-img" src="./images/illustration-thank-you.svg">
+      <p id="rating-message">You selected x out of 5</p>
+      <h2 id="thank-you-title">Thank you!</h2>
+      <p id = thank-you-description> We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+    </div>
+
+  <div class="attribution"> 
+    Coded by <a href="https://www.linkedin.com/in/firasturak/">Firas Turak</a>.
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-size: 15px;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family:'Overpass', sans-serif;
+    padding: 35px 50px 50px 50px;
+}
+
+.card {
+    background-image: radial-gradient(at top, #252d37, #1c232a, #151a1e);
+    width:270px;
+    height:295px;
+    border-radius: 4%;
+    padding: 8%;
+    margin: 0 auto;
+}
+
+#rating-img {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    padding: 5%;
+    width: 15%;
+}
+
+#rating-title {
+    margin-top: 7%;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+#rating-description {
+    margin-top: 5%;
+    color:hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+#rate-button-container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+}
+.rate-button {
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+    border: none;
+    text-align: center;
+    display: inline-block;
+    padding: 9px 14px;
+    font-family: 'Overpass';
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/*Align 1 width to others*/
+#button-1 {
+    padding: 9px 15px;
+}
+
+#button-submit {
+    margin-top: 10%;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 18px;
+    height: 35px;
+    font-family: 'Overpass';
+}
+
+#button-submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+/*thank you card elements till @media*/
+#thank-you-card {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#thank-you-img {
+    width: 140px;
+    padding: 5%;
+    
+}
+
+#rating-message {
+    margin-top: 3%;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    padding: 3% 5%;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+#thank-you-title {
+    margin-top: 9%;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+#thank-you-description {
+    margin-top: 3%;
+    color: hsl(216, 12%, 54%);
+    font-size: 0.75rem;
+    line-height: 160%;
+    text-align: center;
+}
+
+@media (min-width: 512px) {
+    .card {
+        width: 330px;
+        height: 310px;
+        padding: 2%;
+    }
+
+    #button-submit {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    #rate-button-container {
+        width: 100%;
+        gap: 9%;
+    }
+
+    .rate-button {
+        scale: 1.1;
+    }
+    
+    #thank-you-description {
+        font-size: 0.8rem;
+        padding: 1%;
+    }
+
+.attribution {
+    position: fixed; 
+    bottom:0%;
+}    
+}
+
