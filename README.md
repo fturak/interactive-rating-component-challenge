@@ -6,6 +6,7 @@ This is my(https://www.linkedin.com/in/firasturak/) solution to the [Interactive
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,8 +25,10 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click 'View Deployment'](https://github.com/fturak/interactive-rating-component-challenge/deployments/activity_log?environment=github-pages)
+
+### Screenshot
+![Solution](./solution.JPG)
 
 ## My process
 
