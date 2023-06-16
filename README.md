@@ -28,6 +28,7 @@ Users should be able to:
 - Solution URL: [Click 'View Deployment'](https://github.com/fturak/interactive-rating-component-challenge/deployments/activity_log?environment=github-pages)
 
 ### Screenshot
+
 ![Solution](./solution.JPG)
 
 ## My process
