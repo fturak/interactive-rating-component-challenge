@@ -14,7 +14,7 @@ function chosenRating (rating) {
 //Remove an existing button form "active" state when another is pressed
 function removeRating () {
     currentRatingButton.style.backgroundColor = "hsl(213, 19%, 18%)";
-    currentRatingButton.style.color = "white";
+    currentRatingButton.style.color = "hsl(216, 12%, 54%)";
 }
 
 //Flip the card from rating to thank you
